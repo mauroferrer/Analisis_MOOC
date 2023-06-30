@@ -11,7 +11,7 @@
 
 # INTRODUCCION
 ## Proyecto basado en plataformas educativas (Mooc)
-### Para este proyecto, elegi estudiar el mercado de los cursos on line e identificar como es el progreso y comportamiento de las academias que ofrecen estos servicios de educacion virtual, para dar mejor entendimiento a una nueva organizacion que busca entrar a este mercado .para eso utilizamos tablas con informacion de las empresas Udemy, Cousera y edX .mas adelante podran ver un listado de columnas indicando sus tipos de datos y un diagrama de entidad-relacion
+### Para este proyecto, elegi estudiar el mercado de los cursos on line e identificar como es el progreso y comportamiento de las academias que ofrecen estos servicios de educacion virtual, para dar mejor entendimiento a una nueva organizacion que busca entrar a este mercado .para eso utilizamos tablas con informacion de las empresas Udemy, Cousera y edX .mas adelante podran ver un listado de columnas indicando sus descripciones
 
 <hr>  
 
