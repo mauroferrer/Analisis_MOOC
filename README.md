@@ -38,13 +38,13 @@
 
 ### *Promedio calificacion: 5 de 5
 
-### *Incremento en porcentajes desde año inicial hasta año final de los nuevos inscriptos:  % 545.67
+### *Incremento (en porcentaje) desde año inicial hasta año final de los nuevos inscriptos:  % 545.67
 
 ### *Curso mayor demanda: Python
 
-### *Institucion con mayor cursos para ofrecer: University of Pennsilvania con 43 cursos para ofrecer
+### *Institucion con mayor cantidad de cursos para ofrecer: University of Pennsilvania con 43 cursos para ofrecer
 
-### *Calidad de Python: 4.56 de 5
+### *Calidad del curso Python: 4.56 de 5
 
 
 
@@ -58,15 +58,15 @@
 
 ### *Promedio de duracion y precio de Computer Science: precio = $125, duracion = 6.51 semanas
 
-### *Variacion del precio segun el nivel del curso: avanzado =  185 siendo en promedio de los que mas valen 
+### *Variacion del precio segun el nivel del curso: avanzado =  185 siendo el promedio de los que mas valen 
 
 
 
 ### Udemy:
 
-### *Preferencia de duracion de los cursos: Los estudiantes prefieren cursos de duracion corta habiendo 11 millones en cursos cortos
+### *Preferencia de duracion de los cursos: Los estudiantes prefieren cursos de duracion corta habiendo 11 millones de estudiantes en cursos cortos
 
-### *Categoria decursos con mayor demanda: Web Development
+### *Categoria de cursos con mayor demanda: Web Development
 
 ### *Año con mayor ganancias: Año 2015 con un total de 314 mil dolares
 
@@ -89,7 +89,7 @@
 <hr>
 
 ## ¿ A QUIEN VA DESTINADO?
-### En este caso de simulacro el proyecto va diriido para una empresa que esta tratando de entender las tendencias de los cursos virtuales y el mercado en genreal
+### En este caso de simulacro el proyecto va diriido para una empresa que esta tratando de entender las tendencias de los cursos virtuales y el mercado en general
 
 <hr>
 
@@ -97,10 +97,11 @@
 ### **COURSERA**
 #### º **promedio_calificaciones_totales**: Esta medida calcula el promedio de calificacion de todos los cursos de Cursera.
 #### º **cantidad_total_users**: Esta medida calcula la cantidad total de usuarios que hay en Coursera
-#### º **KP1**: Esta medida nos calcula el objetivo planteado para nuestro KPI en coursera, que es de aumentar a 200 mil persoan inscriptas
+
 ### **EDX**
 #### º **Inscriptos_cursos_avanzados**: Esta medida nos indica la cantidad de inscriptos que estan haciendo los cursos avanzados
 #### º **KPI2**: Esta medida nos indica el objetivo a llegar en el KPI2 de EDX que es llegar a 4 millones de personas que llegan a los cursos avanzados
+
 ### **UDEMY**
 #### º **Porcentaje_suscriptores_pagos**: Esta medida nos indica el porcentajes de los inscriptos pagos de la cantidad total de inscriptos 
 #### º **Suscriptorespagos**: Medida que indica la cantidad de suscriptores pagos
