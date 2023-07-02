@@ -29,7 +29,7 @@
                      El codigo EDA de estos datasets se puede encontrar en el archivo llamado 'EDA_y_ETL.ipynb'
 #### **Para hacer este proceso se utilizo Python**
 
-# Paso 2: Creamos un dashboard en Power BI, plateamos objetivos, hacemos analisis con graficos y sacamos conclusiones:
+# Paso 2: Creamos un dashboard en Power BI, hacemos analisis con graficos y sacamos conclusiones:
 <hr>  
 
 ## CONCLUSIONES
