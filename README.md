@@ -1,7 +1,8 @@
 # Proyecto MOOC-**Henry** 
 
 <p align="center">
-<img src=http://www.codlearningtech.org/wp-content/uploads/2015/11/mooc.jpg
+<img src="Captura de pantalla 2023-10-22 185739.png"  height=500>
+
 </p>
 
  ## **Mauro Ferrera**
