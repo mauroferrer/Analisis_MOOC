@@ -1,11 +1,23 @@
 # Proyecto MOOC-**Henry** 
 
+## - Análisis de Coursera.
+
 <p align="center">
 <img src="Captura de pantalla 2023-10-22 185739.png"  height=500>
 
 </p>
 
- ## **Mauro Ferrera**
+## - Análisis de edX.
+<p align="center">
+<img src="Captura de pantalla 2023-10-22 185841.png"  height=500>
+</p>
+
+## - Análisis de Udemy.
+<p align="center">
+<img src="Captura de pantalla 2023-10-22 185910.png"  height=500>
+</p>
+
+## **Mauro Ferrera**
 
 
  <hr>  
