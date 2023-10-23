@@ -21,164 +21,91 @@
 
 
  <hr>  
+ 
+### INTRODUCCIÓN
 
-# INTRODUCCION
-## Proyecto basado en plataformas educativas (Mooc)
-### Para este proyecto, elegi estudiar el mercado de los cursos on line e identificar como es el progreso y comportamiento de las academias que ofrecen estos servicios de educacion virtual, para dar mejor entendimiento a una nueva organizacion que busca entrar a este mercado .para eso utilizamos tablas con informacion de las empresas Udemy, Cousera y edX .mas adelante podran ver un listado de columnas indicando sus descripciones
+ Este proyecto se centra en el análisis de plataformas educativas en línea, también conocidas como MOOC (Cursos Masivos Abiertos en Línea). El objetivo es estudiar el mercado de cursos en línea y comprender el progreso y comportamiento de las academias que ofrecen servicios de educación virtual. Esto proporcionará una visión más clara para una nueva organización que busca ingresar a este mercado en constante crecimiento.
 
+ Nuestra investigación se basa en la recopilación y análisis de datos relacionados con empresas líderes en la industria, como Udemy, Coursera y edX. 
 <hr>  
 
-# OBJETIVOS DEL PROYECTO 
-### Hacer un analisis y diagnostico general de los comportamientos y oportunidades que se presentan en este sector de los cursos on line de los ultimos años de 2011 a 2020 para interpretar comportamientos que ocurren en este sector
+### **Paso 1:** Análisis Exploratorio de Datos (EDA)
+En esta primera etapa, realizamos un análisis exploratorio de los conjuntos de datos proporcionados por la academia Henry. Estos conjuntos incluyen información detallada sobre las plataformas Coursera, edX y Udemy, así como las opiniones de los usuarios que han realizado cursos en Coursera. A continuación, se describen los conjuntos de datos utilizados:
 
-<hr>  
+Coursera_courses:
+Este conjunto de datos contiene información relacionada con la plataforma Coursera y se basa en los datos proporcionados por la academia Henry.
 
-# Paso 1: Hacemos un Analisis EDA(Analisis Exploratorio de lo Datos) de los datasets brindados por la academia Henry:
-### **Coursera_courses:** Tenemos datos sobre la plataforma Coursera .datos proporcionados por Henry
-### **Coursera_reviews:** Tenemos datos especificando la opinion de las personas que hicieron los cursos en Coursera .datos brindados por Henry
-### **edx_courses:** Tenemos datos sobre la plataforma edX, fuente original: https://www.kaggle.com/datasets/imuhammad/edx-courses
-### **udemy_courses:** Datos sobre la plataforma Udemy, fuente original: https://www.kaggle.com/datasets/andrewmvd/udemy-courses
+Coursera_reviews:
+Aquí, encontramos datos que detallan las opiniones de las personas que han participado en cursos de Coursera. Estos datos también son proporcionados por Henry.
 
+edx_courses:
+El conjunto de datos sobre la plataforma edX proviene de la fuente original: https://www.kaggle.com/datasets/imuhammad/edx-courses.
+
+udemy_courses:
+Los datos relacionados con la plataforma Udemy se obtuvieron de la fuente original: https://www.kaggle.com/datasets/andrewmvd/udemy-courses.
                      El codigo EDA de estos datasets se puede encontrar en el archivo llamado 'EDA_y_ETL.ipynb'
 #### **Para hacer este proceso se utilizo Python**
 
-# Paso 2: Creamos un dashboard en Power BI, hacemos analisis con graficos y sacamos conclusiones:
+### Paso 2: Creación de un Dashboard en Power BI, Análisis mediante Gráficos y Extracción de Conclusiones:
 <hr>  
 
-## CONCLUSIONES
+### Conclusiones
+Coursera:
+##### **Promedio de Calificación:** 5 de 5.
+##### **Incremento (en porcentaje) desde el año inicial hasta el año final de los nuevos inscritos:** 545.67%.
+##### **Curso con mayor demanda:** Python.
+##### **Institución con mayor cantidad de cursos para ofrecer:** University of Pennsylvania, con 43 cursos disponibles.
+##### **Calidad del curso Python:** 4.56 de 5.
 
-### Coursera: 
+edX:
 
-### *Promedio calificacion: 5 de 5
-
-### *Incremento (en porcentaje) desde año inicial hasta año final de los nuevos inscriptos:  % 545.67
-
-### *Curso mayor demanda: Python
-
-### *Institucion con mayor cantidad de cursos para ofrecer: University of Pennsilvania con 43 cursos para ofrecer
-
-### *Calidad del curso Python: 4.56 de 5
-
-
-
-### edX: 
-
-### *Curso con mayor demanda: Computer Science
-
-### *Curso con menor demanda:  Ethics
-
-### *Idioma con mayor estudiantes: English
-
-### *Promedio de duracion y precio de Computer Science: precio = $125, duracion = 6.51 semanas
-
-### *Variacion del precio segun el nivel del curso: avanzado =  185 siendo el promedio de los que mas valen 
+ ##### **Curso con mayor demanda:** Computer Science.
+ ##### **Curso con menor demanda:** Ethics.
+ ##### **Idioma con mayor número de estudiantes:** Inglés.
+ ##### **Promedio de duración y precio del curso Computer Science:** Precio = $125, Duración = 6.51 semanas.
+##### **Variación del precio según el nivel del curso:** Avanzado = $185, siendo el promedio de los cursos más costosos.
+Udemy:
+##### **Preferencia de duración de los cursos:** Los estudiantes prefieren cursos de duración corta, con un total de 11 millones de estudiantes en cursos cortos.
+##### **Categoría de cursos con mayor demanda:** Desarrollo Web.
+##### **Año con mayores ganancias:** Año 2015, con un total de 314 mil dólares.
+##### **Curso con mayor demanda:** Learn HTML5 Programming From Scratch.
+##### **Categoría con mayor cantidad de conferencias:** Desarrollo Web.
+##### **Categoría con mayor cantidad de reseñas:** Desarrollo Web.
+Para llevar a cabo este análisis y proceso, utilizamos la herramienta Power BI.
 
 
 
-### Udemy:
-
-### *Preferencia de duracion de los cursos: Los estudiantes prefieren cursos de duracion corta habiendo 11 millones de estudiantes en cursos cortos
-
-### *Categoria de cursos con mayor demanda: Web Development
-
-### *Año con mayor ganancias: Año 2015 con un total de 314 mil dolares
-
-### *Curso con mayor demanda:  Learn HTML5 Programming From Scratch
-
-### *Categoria con mayor cantidad de conferencias:  Web Development
-
-### *Categoria con mayor cantidad de reviews: Web Development  
-
-#### **Para hacer todo este analisis y proceso utilizamos la herramienta de Power BI**
 
                                 El analisis graficado de cada plataforma lo pueden ver en el archivo 'Pi_02_PowerBi.pbix' que es un dashboard interactivo
 
 <hr>
-
-## HERRAMIENTAS
-### Python
-### Power BI 
-
-<hr>
-
-## ¿ A QUIEN VA DESTINADO?
-### En este caso de simulacro el proyecto va diriido para una empresa que esta tratando de entender las tendencias de los cursos virtuales y el mercado en general
+### Herramientas Utilizadas
+Python
+Power BI
 
 <hr>
 
-## MEDIDAS CALCULADAS
-### **COURSERA**
-#### º **promedio_calificaciones_totales**: Esta medida calcula el promedio de calificacion de todos los cursos de Cursera.
-#### º **cantidad_total_users**: Esta medida calcula la cantidad total de usuarios que hay en Coursera
+#### Audiencia Objetivo
+En este caso de simulacro, el proyecto está dirigido a una empresa que busca comprender las tendencias en cursos virtuales y el mercado en general.
 
-### **EDX**
-#### º **Inscriptos_cursos_avanzados**: Esta medida nos indica la cantidad de inscriptos que estan haciendo los cursos avanzados
-#### º **KPI2**: Esta medida nos indica el objetivo a llegar en el KPI2 de EDX que es llegar a 4 millones de personas que llegan a los cursos avanzados
-
-### **UDEMY**
-#### º **Porcentaje_suscriptores_pagos**: Esta medida nos indica el porcentajes de los inscriptos pagos de la cantidad total de inscriptos 
-#### º **Suscriptorespagos**: Medida que indica la cantidad de suscriptores pagos
-#### º **Tasa_conversion**: Esta medida nos indica el porcentajes de inscriptos que pasaron de cursos gratuitos a cursos pagos
 
 <hr>
 
-## DESCRIPCION DE LOS DATOS
-### **COURSERA**
-### **name**: Nombre del curso
-### **institution**: Instituto que ofrece el curso
-### **course_id**: Nombre unico del curso
-<hr>
 
-### **COURSERA_RATING**
-### **reviews**: Opinion de gente que hizo el curso
-### **reviewers**: Nombre de cada persona que hizo el review
-### **date_review**: Fecha en la que se realizo el review
-### **sentimiento**: Columna extraida de la columna raviews haciendo un analisis de sentimiento al texto .se mide de 0 a -1 negativo y de 0 a 1 en positivo
-<hr>
 
-### **EDX**
-### **title**: Mombre del titulo del curso 
-### **summary**: Resumen de lo que se trata el curso
-### **n_enrolled**: Cantidad de inscriptos en el curso
-### **course_type**: Tipo de curso, si es dirijido por un instructor con sus clases en horarios o a ritmo y tiempo propio
-### **institution**: Nombre del instituto que ofrece el curso
-### **instructor**: Nombre del instructor del curso
-### **level**: Nivel de dificultad del curso
-### **subject**: Categoria de cursos
-### **languague**: Lenguague del curso
-### **subtitles**: Idioma de los subtiulos
-### **course_effort**: Cuanto hay que dedicarle por semana en promedio
-### **course_length**: Duracion del curso en semanas
-### **price**: Precio del certificado del curso
-<hr>
+### Futuras Líneas de Análisis
+#### En el futuro, planeamos abordar las siguientes áreas de análisis:
 
-### **UDEMY**
-### **course_id**: ID del curso
-### **course_title**: Titulo del curso
-### **is_paid**: Indica si los suscriptores pagaron el curso o no
-### **price**: Precio del curso
-### **num_subscribers**: Numero de subcriptores por curso
-### **num_reviews**: Numero de reviews hechas por curso
-### **num_lectures**: Numero de conferencias 
-### **level**: Niveles de los cursos
-### **content_duration**: Duracion del contenido
-### **published_timestamp**: Marca de tiempo publicada
-### **subject**: Categoria de cursos
-### **ganancias_generadas**: Columna obtenida de la cantidad de inscriptos por curso con el precio del curso
-### **año_suscripcion**: Año de los suscriptos
-<hr>
-
-## FUTURAS LINEAS
-
-### Calcular el precio promedio dependiendo del nivel de los cursos para conocer el precio si baja o sube dependiendo del nivel del curso
-### Cantidad de conferencias dependiendo de la categoria de cursos, para ver a que categoria se le invierte mas
-### Cantidad de reviews por categoria de cursos, me sirve para conocer en que categoria estan mas activos los estudiantes
-### Promedio de duracion de cursos y su cantidad de estudiantes, me sirve para conocer si los estudiantes prefieron cursos cortos o largos
-### cantidad de estudiantes que pagan por categoria de curso, me sirve para conocer cual categoria esta obteniendo mas ganancia
-### cantidad de estudiantes pagos en cursos para principiantes, intermedios y avanzados, para saber que curso conviene ofrecer
-### precio promedio de cada categoria de cursos, para conocer que precios valen en el mercado
-### Cantidad de inscriptos por lenguajes, sirve para conocer si la demanda varia dependiendo del lenguague del curso
-### promedio de calificacion de los cursos ofrecidos por las plataformas, me sirve para conocer la calidad de los cursos segun los estudiantes de la competencia
+Calcular el precio promedio según el nivel de los cursos para evaluar las variaciones de precios en función del nivel del curso.
+Investigar la cantidad de conferencias por categoría de cursos para determinar en qué categoría se invierte más en contenido.
+Analizar la cantidad de reseñas por categoría de cursos para identificar las categorías más activas entre los estudiantes.
+Estudiar el promedio de duración de los cursos y la cantidad de estudiantes inscritos para comprender las preferencias de los estudiantes en cuanto a la duración de los cursos.
+Evaluar la cantidad de estudiantes que pagan por categoría de curso para identificar las categorías más lucrativas.
+Analizar la cantidad de estudiantes pagos en cursos para principiantes, intermedios y avanzados, con el fin de determinar qué tipo de curso resulta más rentable.
+Calcular el precio promedio en cada categoría de cursos para comprender los precios predominantes en el mercado.
+Investigar la cantidad de inscripciones por idioma para determinar si la demanda varía según el idioma del curso.
+Calcular el promedio de calificaciones de los cursos ofrecidos por las plataformas para evaluar la calidad de los cursos según las opiniones de los estudiantes y compararla con la competencia.
+Estos análisis futuros proporcionarán información adicional y valiosa sobre el mercado de cursos en línea y las tendencias en la educación virtual.
 
 #### Gracias por ver!.
 https://www.linkedin.com/in/mauro-ferrera/
