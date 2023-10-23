@@ -109,7 +109,7 @@ Estos análisis futuros proporcionarán información adicional y valiosa sobre e
 
 <hr>
 
-Pueden encontrar la descripción detallada de los datos en el documento titulado "Diccionario_MOOCs"
+Pueden encontrar la descripción detallada de los datos en el documento titulado "Diccionario_MOOCs.xlsx"
 
 <hr>
 
