@@ -107,5 +107,11 @@ Investigar la cantidad de inscripciones por idioma para determinar si la demanda
 Calcular el promedio de calificaciones de los cursos ofrecidos por las plataformas para evaluar la calidad de los cursos según las opiniones de los estudiantes y compararla con la competencia.
 Estos análisis futuros proporcionarán información adicional y valiosa sobre el mercado de cursos en línea y las tendencias en la educación virtual.
 
+<hr>
+
+Pueden encontrar la descripción detallada de los datos en el documento titulado "Diccionario_MOOCs"
+
+<hr>
+
 #### Gracias por ver!.
 https://www.linkedin.com/in/mauro-ferrera/
